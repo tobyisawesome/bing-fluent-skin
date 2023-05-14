@@ -1,3 +1,5 @@
+##!! DUE TO FILE SIZE LIMITS IN THE EDGE AMINO EXTENSION, I WILL SPLIT UP THE EXTENSION INTO A STYLUS VERSION AND AN AMINO VERSION, THE STYLUS VERSION WILL BE CONTINUALLY UPDATED AND THE AMINO VERSION WILL NO LONGER BE SUPPORTED. !!
+
 # Bing Fluent Design Skin
 
 This repository contains a custom CSS skin for Bing that matches Microsoft Fluent Design better than the original Bing website. It applies various styles and effects to make Bing look more modern and consistent with other Microsoft products. It follows the WinUI guidelines for Windows 11.
