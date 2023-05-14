@@ -221,3 +221,6 @@ html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
     margin-right: 8px;
     border-radius: 8px;
 }
+a, #b_tween a:visited, #b_results .b_no a {
+    color: #174AE4;
+}
