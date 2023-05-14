@@ -208,3 +208,6 @@ a.cbtn, .cbtn a, .cbtn input {
 #b_results .b_vtl_deeplinks .b_widgetContainer {
     border-radius: 8px !important;
 }
+html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
+    border-radius: 0 0 8px 8px;
+}
