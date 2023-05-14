@@ -224,3 +224,57 @@ html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
 a, #b_tween a:visited, #b_results .b_no a {
     color: #174AE4;
 }
+#sw_as .sa_as .sa_drw, #sw_as .sa_as li.pp_tile, #sw_as .sa_as .sa_tm strong, #sw_as .sa_as table {
+    color: rgba(0, 0, 0, 0.8956) !important;
+}
+#sw_as strong {
+    font-weight: 600;
+}
+#b_results .br-seemrbtnCntnt, #b_context .br-seemrbtnCntnt, #b_results .jb_see_all_btn, #b_results .wiki_seemore, .b_rich .iaplanner .iasabt, .salink .vasabt, .fb_seemorebutton, .sa_main .sa_sabt, .b_saContainer .sa_sabt, #b_results .ans_nws .new_see_more_container .new_see_more, .wfr_smlk, #b_content #b_pole #ans_nws .new_see_more {
+    background-color: rgba(0, 95, 184, 1) !important;
+}
+.b_rich .iaplanner .iasabt, .b_rich .iasabt {
+    border-radius: 8px !important;
+}
+.b_rich .iaplanner .iasatxt, .b_rich .iasatxt {
+    font-size: 14px !important;
+}
+.ftrD_MmVert {
+    border: solid 1px #ccc;
+    background: #fff;
+    border-radius: 7px;
+}
+.ftrD_MmVert {
+    padding: 4px;
+}
+.ftrD_MmVert>a, .ftrCustContainer {
+    border-radius: 4px;
+}
+.ftrHh, .ftrHh:hover, .ftrVS, .ftrHSe {
+    background: rgba(0, 0, 0, 0.0241) !important;
+    border-radius: 4px;
+}.ftrD_MmVert>a:hover {
+    color: #333;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.0373) !important;
+}
+.ftrD_MmVert {
+    padding-bottom: 4px !important;
+}
+.ftrD_MmVert {
+    border: 1px solid rgba(0, 0, 0, 0.0578) !important;
+    background: rgba(252, 252, 252, 0.85) !important;
+    backdrop-filter: blur(30px) !important;
+}
+.b_scopebar li {
+    font-size: 14px;
+}
+.ftrD_MmVert>a, .ftrCustContainer {
+    color: rgba(0, 0, 0, 0.6063) !important;
+}
+.ftrSe {
+    color: rgba(0, 0, 0, 0.8956);
+}
+.ftrSSL {
+    color: rgba(0, 0, 0, 0.8956) !important;
+}
