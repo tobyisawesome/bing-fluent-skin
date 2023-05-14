@@ -463,3 +463,29 @@ h2 {
     border: 1px solid rgba(117, 117, 117, 0.4);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.26);
 }
+.l_ecrd_hero .spl_share a, #b_content .spl_share a {
+    background: rgba(84, 84, 84, 0.64);
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.26);
+}
+.l_ecrd_hero_smi {
+    background: rgba(84, 84, 84, 0.64);
+    color: #fff;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.26);
+    border-radius: 4px;
+}
+.dl_collapsed .btm_sml .b_expDesk {
+    display: inline-block;
+    padding: 0 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(0, 95, 184, 1) !important;
+    z-index: 1;
+    position: relative;
+    line-height: 32px;
+}
