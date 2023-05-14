@@ -12,25 +12,18 @@ To use this skin, you need to install a browser extension that allows you to inj
 
 After installing the extension, create a new style for Bing and paste the CSS code from this repository. Save the style and reload Bing to see the changes.
 
-Alternatively, you can use an online tool like Userstyles.org to create and share your custom Bing themes.
-
 ## Features
 
 This skin modifies the following elements of Bing:
 
 - The header bar with the search box and menu items
 - The scope bar with different search categories
-- The search results page with snippets, images and videos
-- The suggestions box with autocomplete and related queries
-- The footer with links and settings
+- The font of the website (Updated to Segoe UI Variable if font is installed)
 
 Some of the effects applied by this skin are:
 
 - Rounded corners and borders
 - Blur and transparency effects
-- Gradient backgrounds and borders
-- Custom fonts and colors
-- Smooth animations and transitions
 
 ## Screenshots
 
