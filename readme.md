@@ -28,10 +28,9 @@ Some of the effects applied by this skin are:
 ## Screenshots
 
 Here are some screenshots of how Bing looks with this skin:
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/e3b20886-d91b-42f3-ade3-0523fe01f578)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/eae62ad3-f387-452e-a817-f34bb20a1384)
 
-![Bing homepage](homepage.png)
-![Bing image search](images.png)
-![Bing video search](videos.png)
 
 ## Feedback
 
