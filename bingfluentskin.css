@@ -211,3 +211,13 @@ a.cbtn, .cbtn a, .cbtn input {
 html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
     border-radius: 0 0 8px 8px;
 }
+#sw_as .sa_drw {
+    margin: 0;
+    padding-top: 8px;
+}
+#sw_as #sa_ul li.pp_sTile.pp_tile {
+    padding-left: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
