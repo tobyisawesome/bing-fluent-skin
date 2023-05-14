@@ -18,7 +18,7 @@ This skin modifies the following elements of Bing:
 
 - The header bar with the search box and menu items
 - The scope bar with different search categories
-- The font of the website (Updated to Segoe UI Variable if font is installed)
+- The font, and font weights of the website (Updated to Segoe UI Variable if font is installed, and Bold text is changed to Semibold for consistency)
 
 Some of the effects applied by this skin are:
 
