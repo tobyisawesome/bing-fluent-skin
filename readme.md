@@ -1,6 +1,6 @@
 # Bing Fluent Design Skin
 
-This repository contains a custom CSS skin for Bing that matches Microsoft Fluent Design better than the original Bing website. It applies various styles and effects to make Bing look more modern and consistent with other Microsoft products.
+This repository contains a custom CSS skin for Bing that matches Microsoft Fluent Design better than the original Bing website. It applies various styles and effects to make Bing look more modern and consistent with other Microsoft products. It follows the WinUI guidelines for Windows 11.
 
 ## How to use it
 
