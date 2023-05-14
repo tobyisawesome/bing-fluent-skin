@@ -6,7 +6,7 @@ This repository contains a custom CSS skin for Bing that matches Microsoft Fluen
 
 To use this skin, you need to install a browser extension that allows you to inject custom CSS code into web pages. Some examples are:
 
-- Custom Style Script for Microsoft Edge
+- Custom Style Script for Microsoft Edge (ex. Amino, what I use)
 - Stylus for Chrome, Firefox and Opera
 - Stylish for Chrome and Firefox
 
