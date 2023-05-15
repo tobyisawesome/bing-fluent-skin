@@ -3,7 +3,6 @@ body {
 }
 #b_header {
     padding: 18px 0 0 0;
-    background-color: #fff;
     background: #ffffff00;
 }
 #b_results>li {
@@ -152,4 +151,29 @@ body {
 }
 #b_header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+}
+.dg_b {
+    padding: 10px;
+    background-color: transparent;
+    margin-top: -8px;
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+#rfPane {
+    background: transparent;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    min-width: 1177px;
+    padding-top: 5px;
+}
+.touchQuery .carousel .carousel-controls, .touchQuery .carousel .items, .touchQuery .carousel .item, .touchQuery .carousel .carousel-controls .nav_left, .touchQuery .carousel .carousel-controls .nav_right {
+    background: transparent;
+}
+.carousel, .carousel a {
+    color: #111;
+    background-color: transparent !important;
+}
+#b_context .b_ans, #b_context #wpc_ag {
+    background-color: transparent;
 }
