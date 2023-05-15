@@ -4,6 +4,10 @@
 
 This repository contains a custom CSS skin for Bing that matches Microsoft Fluent Design better than the original Bing website. It applies various styles and effects to make Bing look more modern and consistent with other Microsoft products. It follows the WinUI guidelines for Windows 11.
 
+## New Bing background
+
+Additionally, you can use the New Bing Background CSS skin if you're willing to try a page background that resembles the one in Bing Chat along with the skin. Both CSS skins should integrate perfectly fine.
+
 ## How to use it
 
 To use this skin, you need to install a browser extension that allows you to inject custom CSS code into web pages. Some examples are:
