@@ -16,11 +16,11 @@ To use this skin, you need to install a browser extension that allows you to inj
 - Stylus for Chrome, Firefox and Opera
 - Stylish for Chrome and Firefox
 
-userstyles.world link: https://userstyles.world/style/9831/fluent-bing
+After installing the extension, create a new style for Bing and paste the contents from bingfluentskin.css (or bingfluentskin-stylus.css if you use Stylus) from this repository. Save the style and reload Bing to see the changes.
+
+For Stylus users, userstyles.world link is here: https://userstyles.world/style/9831/fluent-bing
 
 Also, if you want the Bing Chat background, follow this link: https://userstyles.world/style/9837/new-bing-background
-
-After installing the extension, create a new style for Bing and paste the contents from bingfluentskin.css (or bingfluentskin-stylus.css if you use Stylus) from this repository. Save the style and reload Bing to see the changes.
 
 ## Features
 
