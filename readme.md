@@ -40,6 +40,7 @@ Some of the effects applied by this skin are:
 Here are some screenshots of how Bing looks with this skin:
 ![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/4e9ef912-5934-4699-8cf8-f0cbbb570838)
 With New Bing Background enabled ^
+
 ![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/defbffcb-9853-4243-ba5c-802e17770aa4)
 ![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/eae62ad3-f387-452e-a817-f34bb20a1384)
 ![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/bfb0e1c0-ac07-411f-9236-7b3204d39bd1)
