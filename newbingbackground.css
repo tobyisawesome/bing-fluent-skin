@@ -1,0 +1,155 @@
+body {
+    background:radial-gradient(61.04% 89.69% at 100% 100%, rgba(200, 250, 255, 0.08) 0%, rgba(28, 210, 229, 0.08) 40.63%, rgba(28, 210, 229, 0) 100%), radial-gradient(43.78% 64.34% at 60.31% 100%, rgba(23, 74, 228, 0.08) 0%, rgba(23, 74, 228, 0) 100%), linear-gradient(180deg, rgba(23, 74, 228, 0) 29.44%, rgba(23, 74, 228, 0.06) 100%), linear-gradient(90deg, #F3F3F7 0%, #EBF0F9 100%)
+}
+#b_header {
+    padding: 18px 0 0 0;
+    background-color: #fff;
+    background: #ffffff00;
+}
+#b_results>li {
+    background-color: #fff0;
+}
+#b_wpt_insights {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05),0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 6px;
+    margin: 0 -20px 20px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.l_ecrd_ftr {
+    display: flex;
+    padding: 16px 20px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.7) !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.l_ecrd_a1 {
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+.lite-entcard-blk > div:not(.l_ecrd_bkg_img) {
+    position: relative;
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+.lite-entcard-main {
+    border: 1px solid rgba(0, 0, 0, 0.0578) !important;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04) !important;
+}
+.lite-entcard-exp {
+    background-color: #fff0;
+    clear: both;
+    overflow: hidden;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+#b_content .ans_nws .na_cnt .na_ccw.tc {
+    position: relative;
+    box-sizing: content-box;
+    display: block;
+    height: 80px;
+    padding: 16px;
+    margin: 8px 0;
+    color: #444;
+    border-radius: 7px !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05);
+}
+.lite-entcard-exp {
+    background-color: #fff0 !important;
+    clear: both;
+    overflow: hidden;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+.nws_itm {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05);
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    margin-bottom: 12px;
+    border-radius: 7px !important;
+}
+#tob_rail_container {
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 16px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.b-conclfb-wrapper {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.0578);
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.tl_cl {
+    position: relative;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05),0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.richrsrailtitle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+    padding: 5px 19px;
+    margin: 0 -20px;
+}
+.richrsrailexpansion ul li, .richrsrailsugwrapper>div {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+}
+.richrswrapper {
+    box-shadow: 0 2px 3px rgba(0,0,0,.1),0 -1px 1px rgba(0,0,0,.1);
+    padding: 9px 19px 4px 19px;
+    margin: -10px -20px 24px -20px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.0578);
+    background: rgba(255, 255, 255, 0.7);
+}
+#b_results #brsv3 .b_vList li a {
+    max-height: none;
+    min-height: 48px;
+    padding: 0 17px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.df_alaskcarousel #relatedQnAListDisplay.openAnsWrapper .b_slidebar .slide, #df_listaa .df_topicqna.openAnsWrapper .b_slidebar .slide {
+    box-sizing: border-box;
+    width: 300px;
+    height: 248px;
+    margin-right: 8px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.7);
+}
+.tl_cl .b_overlay .btn.next::before {
+    background: #ffffff00 !important;
+}
+.df_alaskcarousel.rqnaContainerwithfeedback .openans_gradient_div {
+    background: #ffffff00;
+}
+#b_pole .b_wpTabsWrapper {
+    background-color: #fff0 !important;
+    margin: 1px 0;
+    padding: 9px 0;
+}
+#b_content #b_pole .ent-dtab-content, #b_content #b_pole .ent-dtab-content > div:first-child {
+    background-color: #ffffff00 !important;
+}
+#b_pole .b_wpTabsWrapper:last-child {
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803) !important;
+}
+#b_header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803) !important;
+}
