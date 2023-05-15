@@ -151,5 +151,5 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.0803) !important;
 }
 #b_header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.0803) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
 }
