@@ -14,7 +14,7 @@ To use this skin, you need to install a browser extension that allows you to inj
 
 userstyles.world link: https://userstyles.world/style/9831/fluent-bing
 
-After installing the extension, create a new style for Bing and paste the CSS code from this repository. Save the style and reload Bing to see the changes.
+After installing the extension, create a new style for Bing and paste the contents from bingfluentskin.css (or bingfluentskin-stylus.css if you use Stylus) from this repository. Save the style and reload Bing to see the changes.
 
 ## Features
 
