@@ -1,4 +1,4 @@
-## !! DUE TO FILE SIZE LIMITS IN THE EDGE AMINO EXTENSION, I WILL SPLIT UP THE EXTENSION INTO A STYLUS VERSION AND AN AMINO VERSION, THE STYLUS VERSION WILL BE CONTINUALLY UPDATED AND THE AMINO VERSION WILL NO LONGER BE SUPPORTED. !!
+## Due to file size limits in Amino, Stylus is recommended for this skin on Microsoft Edge. Please download the Stylus version to get the latest version of this skin.
 
 # Bing Fluent Design Skin
 
@@ -29,6 +29,7 @@ This skin modifies the following elements of Bing:
 - The header bar with the search box and menu items
 - The scope bar with different search categories
 - The font, and font weights of the website (Updated to Segoe UI Variable if font is installed, and Bold text is changed to Semibold for consistency)
+- Many smaller elements, like buttons, dropdowns, widgets are updates to fit with WinUI.
 
 Some of the effects applied by this skin are:
 
