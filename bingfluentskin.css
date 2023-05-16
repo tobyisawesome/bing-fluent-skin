@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           Fluent Bing
+@namespace      bing.com
+@version        1.0.0
+@description    Fluent skin for Bing
+@author         DKoala1087
+==/UserStyle== */
+
+@-moz-document domain("bing.com") {
     /* Fluent Bing Icons*/
 .sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.b_fLogo:after,.b_cm:after,.sw_lpoi:after {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
@@ -774,4 +783,5 @@ p>.news_dt {
 #b_tween a.ftrH {
     height: 32px;
     border-radius: 4px;
+}
 }
