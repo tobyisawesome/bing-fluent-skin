@@ -1,4 +1,4 @@
-## Due to file size limits in Amino, Stylus is recommended for this skin on Microsoft Edge. Please download the Stylus version to get the latest version of this skin.
+## This skin is meant to be used with Stylus, and the preferred download method is the userstyles.world link that can be found below.
 
 # Bing Fluent Design Skin
 
