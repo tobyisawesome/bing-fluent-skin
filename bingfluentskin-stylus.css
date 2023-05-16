@@ -1,4 +1,4 @@
-/* Fluent Bing Icons*/
+    /* Fluent Bing Icons*/
 .sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.b_fLogo:after,.b_cm:after,.sw_lpoi:after {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
             }
@@ -740,4 +740,38 @@ h2 {
 }
 .df_alaskcarousel #df_listaa .b_vPanel .df_hd .b_primtxt {
     font-size: 20px;
+}
+.b_dl_moreline {
+    position: relative;
+    top: -26px;
+    height: 1px;
+    background-color: #ececec00;
+}
+.b_rebateSlug .algoSlug_icon, .b_algoSlug .algoSlug_icon {
+    margin-right: 4px;
+    border: #666;
+    color: #fff;
+    font-size: 11px;
+    vertical-align: middle;
+    line-height: 11px;
+    border-radius: 999px;
+    display: inline-block;
+    margin-bottom: 3px;
+    background: #666;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+p>.news_dt {
+    color: rgba(0, 0, 0, 0.6063);
+}
+#b_tween .ftrB a.ftrH.b_selected, #b_tween .ftrB a.ftrH:hover, #b_tween .ftrB a.ftrH:focus {
+    color: rgba(0, 0, 0, 0.8956);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.0373);
+}
+#b_tween a.ftrH {
+    height: 32px;
+    border-radius: 4px;
 }
