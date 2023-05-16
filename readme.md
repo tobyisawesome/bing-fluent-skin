@@ -30,7 +30,8 @@ This skin modifies the following elements of Bing:
 - The scope bar with different search categories
 - The font, and font weights of the website (Updated to Segoe UI Variable if font is installed, and Bold text is changed to Semibold for consistency)
 - Many smaller elements, like buttons, dropdowns, widgets are updated to fit with WinUI.
-
+- Several outdated icons
+- 
 Some of the effects applied by this skin are:
 
 - Rounded corners and borders
@@ -39,12 +40,8 @@ Some of the effects applied by this skin are:
 ## Screenshots
 
 Here are some screenshots of how Bing looks with this skin:
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/4e9ef912-5934-4699-8cf8-f0cbbb570838)
-With New Bing Background enabled ^
-
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/defbffcb-9853-4243-ba5c-802e17770aa4)
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/eae62ad3-f387-452e-a817-f34bb20a1384)
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/bfb0e1c0-ac07-411f-9236-7b3204d39bd1)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/be4802a7-3f76-4ef2-b2de-ae9cc43f277b)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/f87adf60-f703-44af-916c-d14b516920e7)
 
 ## Feedback
 
