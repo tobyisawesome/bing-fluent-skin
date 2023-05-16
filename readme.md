@@ -31,7 +31,7 @@ This skin modifies the following elements of Bing:
 - The font, and font weights of the website (Updated to Segoe UI Variable if font is installed, and Bold text is changed to Semibold for consistency)
 - Many smaller elements, like buttons, dropdowns, widgets are updated to fit with WinUI.
 - Several outdated icons
-- 
+
 Some of the effects applied by this skin are:
 
 - Rounded corners and borders
