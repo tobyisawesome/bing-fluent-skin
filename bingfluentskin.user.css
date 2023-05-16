@@ -2,7 +2,7 @@
 @name           Fluent Bing
 @namespace      bing.com
 @version        1.0.0
-@description    Fluent skin for Bing.com, changes many elements to consistent with WinUI and Fluent Design.
+@description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
 
@@ -235,7 +235,7 @@ a.cbtn, .cbtn a, .cbtn input {
 .hb_section {
     display: block;
     position: relative;
-    padding: 12px 20px;
+    padding: 9px 20px;
     margin-left: 4px;
     margin-right: 4px;
     border-radius: 4px;
@@ -783,5 +783,43 @@ p>.news_dt {
 #b_tween a.ftrH {
     height: 32px;
     border-radius: 4px;
+}
+.vert_annot .va_title {
+    font-weight: 600;
+}
+.tl_cl .tl_dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 24px;
+    background: #005FB8 !important;
+    border: 2px solid #ffff !important;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.0578) !important;
+}
+.tl_cl .b_slidebar::before {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    background-color: rgba(0, 95, 184, 1) !important;
+}
+.tl_cl .tl_date {
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    top: 0;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+.timeline_content .citm_card {
+    color: rgba(0, 0, 0, 0.8956);
+    margin: 16px 28px 16px 0;
+    overflow: hidden;
 }
 }
