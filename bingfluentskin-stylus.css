@@ -1,3 +1,51 @@
+/* Fluent Bing Icons*/
+.sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.b_fLogo:after,.b_cm:after,.sw_lpoi:after {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .sw_meIc:after,.idp_ham:after,.idp_wlid:after {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .sw_spd {
+                height: 64px;
+                width: 64px;
+                border-radius: 50%;
+                top: -7px;
+                background-repeat: no-repeat;
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
+                transform: scale(.5);
+                background-position: -362px -28px;
+                margin: 0 -16px 0 -8px;
+                vertical-align: top
+            }
+            #b_header .b_searchboxForm #sb_search #b_icon_spyglass:not(svg) {
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .b_logo:after {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .b_logo:after {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .b_searchboxSubmit {
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .mic_cont #vs_mic_icon:not(svg) {
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            :not(svg)#sbi_b {
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+            }
+            #mfa_root .fba_sbicn {
+                background: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png) no-repeat -762px 0;
+                transform: scale(.5)
+            }
+.hbic_setting, .hbic_history, .hbic_mybing, .hbic_feedback, .hbic_safesearch, .hbic_homepage, .hbic_sign, .hbic_rewards, .hbic_chevdown, .hbic_chevup, .hbic_privacy, .hbic_themes {
+    background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitems.png);
+}
+/* End of Fluent Bing Icons */
 #id_hbfo {
     position: absolute;
     z-index: 1000;
