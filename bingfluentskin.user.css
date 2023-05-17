@@ -41,9 +41,6 @@
             .mic_cont #vs_mic_icon:not(svg) {
                 background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
             }
-            :not(svg)#sbi_b {
-                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
-            }
             .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
             }
@@ -499,7 +496,7 @@ h1, h2, h3 {
     font: 13px/1.2em 'Segoe UI Variable Text',Sans-Serif;
 }
 h2 {
-    font-size: 20px !important;
+    font-size: 20px;
     line-height: 28px;
 }
 .img_badges {
@@ -943,5 +940,35 @@ div.me_sidenav a, div.me_sidenav a:visited {
     font-weight: 600;
     justify-content: center;
     line-height: 24px;
+}
+.b_wpt_bg .sydwrap_wrapper div#b_syd_sm_chat.sydwrap_sm_chat .b_wpt_chat {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+#sw_as li.pp_tile.sa_hv, .b_searchboxForm #sw_as .sa_hv {
+    background-color: rgba(0, 0, 0, 0.0373);
+}
+.b_footer, .b_footer a, .b_footer a:visited {
+    color: #003E92;
+}
+.b_footer {
+    background-color: #F3F3F3;
+}
+#b_topw .b_wpTabsWrapper {
+    background-color: #ff00;
+    margin: 0 0 -30px 0;
+}
+.ent-dtab-content > div.ent-dtab-style-content.ent-dtab-tabuxv1 {
+    background-color: #ff00;
+}
+.ent-dtab-content {
+    background-color: #fff0;
+}
+.b_wpt_bl:not(.b_wpt_blw):not(.b_wpt_wi):not(.b_wpt_kc_hero) {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.b_wpt_bl.b_wpt_fact:not(.b_wpt_blw):not(.b_wpt_wi):not(.b_wpt_kc_hero) {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 }
