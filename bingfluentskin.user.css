@@ -286,7 +286,7 @@ html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
 #sw_as .sa_drw {
     margin: 0;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 #sw_as #sa_ul li.pp_sTile.pp_tile {
     padding-left: 8px !important;
@@ -918,11 +918,30 @@ div.me_sidenav a, div.me_sidenav a:visited {
     font-weight: 600;
 }
 .bg_footer {
-    font-size: 12px
+    font-size: 12px;
     color: rgba(0, 0, 0, 0.6063);
     background: #ff00;
 }
 .sw_detect:after {
     content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
+}
+.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited {
+    color: rgba(0, 0, 0, 0.8956);
+}
+.ent-dtab-nam-ov-dtp.ent-dtab-tabuxv1 {
+    overflow: visible;
+}
+.lite-entcard-blk > div:not(.l_ecrd_bkg_img) {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.l_ecrd_ratings_prim {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8956);
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 24px;
 }
 }
