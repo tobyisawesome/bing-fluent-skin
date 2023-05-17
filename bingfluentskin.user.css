@@ -922,4 +922,7 @@ div.me_sidenav a, div.me_sidenav a:visited {
     color: rgba(0, 0, 0, 0.6063);
     background: #ff00;
 }
+.sw_detect:after {
+    content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
+}
 }
