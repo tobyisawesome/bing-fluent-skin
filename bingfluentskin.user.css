@@ -55,6 +55,20 @@
     background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitems.png);
 }
 /* End of Fluent Bing Icons */
+/* Animations */
+    #ftr_pane {
+    transition: height .3s Cubic-bezier(0.55,0,0,1),margin-top .3s Cubic-bezier(0.55,0,0,1),padding-left .3s Cubic-bezier(0.55,0,0,1);
+}
+#b_tween .ftrB .b_dropdown {
+    animation: .25s cubic-bezier(0, 0, 0, 1) 0s 1 normal forwards tweenDropDown;
+}
+.slide_down, .slide_up {
+    overflow-y: hidden;
+    -webkit-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+    transition-timing-function: Cubic-bezier(0,0,0,1);
+}
+/* End of animations */
 #id_hbfo {
     position: absolute;
     z-index: 1000;
@@ -821,5 +835,91 @@ p>.news_dt {
     color: rgba(0, 0, 0, 0.8956);
     margin: 16px 28px 16px 0;
     overflow: hidden;
+}
+#ftrB {
+    background-color: #fff0;
+}
+#ftr_pane {
+    background-color: #fff0;
+}
+.ftrH_MmVert:hover, .ftrH_MmVert:focus {
+    background: rgba(0, 0, 0, 0.0373);
+}
+.me_section h2 {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: none;
+}
+.me_sectioncontent {
+    background-color: #fff0;
+    padding: 10px 0;
+}
+.me_content {
+    background-color: #eee0;
+}
+.pb-title-nav-strip {
+    background-color: #fff0;
+}
+.pb-title-nav-strip {
+    height: 43px;
+    line-height: 42px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+    padding-left: 120px;
+}
+.me_subsection {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+}
+.ctl_labels .clbl_secondary {
+    color: rgba(0, 0, 0, 0.6063);
+    display: block;
+}
+div.me_sidenav a, div.me_sidenav a:visited {
+    font-weight: normal;
+    text-transform: none;
+    padding: 14px;
+    background-color: #fff0;
+    display: block;
+    color: rgba(0, 0, 0, 0.8956);
+    margin: 0 15px 15px auto;
+    width: 160px;
+}
+#buttons-section {
+    background-color: #fff0;
+}
+.me_content a, .me_content a:visited, .me_content input[type=button] {
+    color: #003E92;
+}
+.b_algospacing .b_algospacing_block {
+    padding: 4px 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0803);
+    line-height: 20px;
+}
+#b_results .ans_nws .new_see_more_container .new_see_more_line {
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    position: absolute;
+    margin-top: 38px;
+    content: " ";
+    flex: 1 1;
+}
+.b_top, .b_top .b_promoteText {
+    color: rgba(0, 0, 0, 0.8956);
+}
+.bg_info {
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.bg_title {
+    line-height: 22px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.bg_footer {
+    font-size: 12px
+    color: rgba(0, 0, 0, 0.6063);
+    background: #ff00;
 }
 }
