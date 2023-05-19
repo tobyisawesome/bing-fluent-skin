@@ -971,4 +971,8 @@ div.me_sidenav a, div.me_sidenav a:visited {
 .b_wpt_bl.b_wpt_fact:not(.b_wpt_blw):not(.b_wpt_wi):not(.b_wpt_kc_hero) {
     background-color: rgba(255, 255, 255, 0.7);
 }
+.pagereco_TRow .b_title, .pagereco_TRow .b_attr {
+	text-overflow: ellipsis;
+	overflow: visible;
+}
 }
