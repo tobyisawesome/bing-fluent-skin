@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.0.2
+@version        1.0.3
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -340,7 +340,7 @@ a, #b_tween a:visited, #b_results .b_no a {
     font-size: 14px;
 }
 .ftrD_MmVert>a, .ftrCustContainer {
-    color: rgba(0, 0, 0, 0.6063) !important;
+    color: rgba(0, 0, 0, 0.8956) !important;
 }
 .ftrSe {
     color: rgba(0, 0, 0, 0.8956);
@@ -922,9 +922,6 @@ div.me_sidenav a, div.me_sidenav a:visited {
 .sw_detect:after {
     content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
 }
-.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited {
-    color: rgba(0, 0, 0, 0.8956);
-}
 .ent-dtab-nam-ov-dtp.ent-dtab-tabuxv1 {
     overflow: visible;
 }
@@ -974,5 +971,17 @@ div.me_sidenav a, div.me_sidenav a:visited {
 .pagereco_TRow .b_title, .pagereco_TRow .b_attr {
 	text-overflow: ellipsis;
 	overflow: visible;
+}
+#b_results>li.b_ans.b_imgans.b_bop {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.0578);
+}
+.ftrD_MmVert {
+box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
+}
+#b_results>li.b_ans.b_topborder, #b_results>li.b_ans.b_topborder.b_tophb.b_topshad {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.0578);
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
 }
 }
