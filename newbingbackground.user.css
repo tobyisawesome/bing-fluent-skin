@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           New Bing background
 @namespace      bing.com
-@version        1.0.1
+@version        1.0.3
 @description    Chat BG for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -185,5 +185,18 @@ body {
 }
 #b_context .b_ans, #b_context #wpc_ag {
     background-color: transparent;
+}
+.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited {
+    color: rgba(0, 0, 0, 0.8956);
+}
+#bpage #b_content .b_ans .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt p, #b_content .b_ans .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt p {
+    color: rgba(0, 0, 0, 0.8956);
+    padding-bottom: 4px;
+}
+.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt {
+    color: rgba(0, 0, 0, 0.8956);
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 12px;
 }
 }
