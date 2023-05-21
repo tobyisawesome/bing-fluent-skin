@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.2
+@version        1.2.3
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1428,5 +1428,17 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.
 }
 .b_scopebar .b_active a {
     font-weight: normal;
+}
+html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p, input {
+    font-weight: inherit;
+    font-size: inherit;
+    list-style: none;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI Variable Text;
 }
 }
