@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.0.4
+@version        1.1.0
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -27,7 +27,10 @@
                 vertical-align: top
             }
             #b_header .b_searchboxForm #sb_search #b_icon_spyglass:not(svg) {
-                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+                background-image: none;
+            }
+            #b_header .b_searchboxForm #sb_search #b_icon_spyglass:not(svg) {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/search.svg);
             }
             .b_logo:after {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
@@ -39,7 +42,10 @@
                 background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
             }
             .mic_cont #vs_mic_icon:not(svg) {
-                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
+                background-image: none;
+            }
+            .mic_cont #vs_mic_icon:not(svg) {
+                content: url(https://github.com/tobyisawesome/bing-fluent-skin/raw/main/voicesearch.svg);
             }
             .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png)
@@ -48,11 +54,14 @@
                 background: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png) no-repeat -762px 0;
                 transform: scale(.5)
             }
+            .richrsrailsuggestion_img.sug_sprite:after {
+    content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
+}
 .hbic_setting, .hbic_history, .hbic_mybing, .hbic_feedback, .hbic_safesearch, .hbic_homepage, .hbic_sign, .hbic_rewards, .hbic_chevdown, .hbic_chevup, .hbic_privacy, .hbic_themes {
     background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitems.png);
 }
-/* End of Fluent Bing Icons */
-/* Animations */
+    /* End of Fluent Bing Icons */
+    /* Animations */
     #ftr_pane {
     transition: height .3s Cubic-bezier(0.55,0,0,1),margin-top .3s Cubic-bezier(0.55,0,0,1),padding-left .3s Cubic-bezier(0.55,0,0,1);
 }
@@ -65,7 +74,7 @@
     transition: max-height 0.8s;
     transition-timing-function: Cubic-bezier(0,0,0,1);
 }
-/* End of animations */
+    /* End of animations */
 #id_hbfo {
     position: absolute;
     z-index: 1000;
@@ -1035,5 +1044,109 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
 }
 .scopes .scope .overflow_menu .overflow_item.divider {
     border-top: 1px solid rgba(0, 0, 0, 0.0803);
+}
+.richrswrapper {
+    padding: 9px 19px 4px 19px;
+    margin: -10px -20px 24px -20px;
+    width: 100%;
+    border-radius: 7px;
+    border: none !important;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.0578) !important;
+}
+#b_results #brsv3 .b_vList a .b_suggestionText {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8956);
+    overflow: visible;
+}
+#b_results .b_ans #brsv3 h2 {
+    color: rgba(0, 0, 0, 0.8956);
+    font-weight: 600;
+}
+#b_results .b_ans #brsv3 h2 strong {
+    font-weight: 600;
+}
+.richrsrailtitle h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8956);
+}
+[vptest]::before, *[data-sbtip]:not(.disableTooltip):hover::before, *[data-sbtip].shtip:not(.disableTooltip)::before {
+    position: absolute;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    content: "";
+    transform: translateX(-50%) rotate(45deg);
+}
+[vptest]::after, *[data-sbtip]:not(.disableTooltip):hover::after, *[data-sbtip].shtip:not(.disableTooltip)::after {
+    position: absolute;
+    background-color: rgba(44, 44, 44, 0.96);
+    content: attr(data-sbtip);
+    font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
+    white-space: nowrap;
+    color: #fff;
+    padding: 5px 8px;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+    backdrop-filter: blur(30px);
+}
+#b_header .mic_cont.partner .b_icon:hover::before {
+    background-color: transparent;
+}
+#b_header .mic_cont.partner .b_icon:hover::after {
+    background-color: rgba(44, 44, 44, 0.96);
+    font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+    backdrop-filter: blur(30px);
+}
+#detailPage #detailheader img#sbi_b, .blue2#miniheader img#sbi_b, .sbox img#sbi_b {
+    content: url(https://github.com/tobyisawesome/bing-fluent-skin/raw/main/visualsearchicon.svg);
+}
+.sbox .sb_form.c_show_form.c_show_c .mic_cont.icon .b_icon path, .sbox .sb_form.c_show_form.c_show_c .keyboard path {
+    fill: rgba(0, 0, 0, 0.8956);
+}
+.sbox .sb_form.c_show_form.c_show_form_expanded {
+    border-radius: 8px;
+    border-left: 2px solid rgba(0, 0, 0, 0.0578);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4458);
+    border-right: 2px solid rgba(0, 0, 0, 0.0578);
+    border-top: 2px solid rgba(0, 0, 0, 0.0578);
+    background: rgba(255, 255, 255, 0.9);
+}
+.sbox * {
+    box-sizing: inherit;
+    fill: rgba(0, 0, 0, 0.8956);
+}
+:not(svg)#sbi_b {
+    background-image: unset;
+    content: url(https://github.com/tobyisawesome/bing-fluent-skin/raw/main/visualsearchicon.svg);
+}
+.sbox .sb_form.c_show_form #sw_as {
+    width: 100.68%;
+}
+.sbox .sb_form #sw_as .sa_as #sa_ul.sa_drw:not(:empty):before {
+    background-color: transparent;
+}
+.tooltip:before, #sb_sbi:before, #id_sc:before, #id_rh:before, #id_rbh:before, #id_nc:before, #bnc-hc:before {
+    background-color: transparent;
+}
+.tooltip:after, #sb_sbi:after, #id_sc:after, #id_rh:after, #id_rbh:after, #id_nc:after, #bnc-hc:after {
+    background-color: rgba(44, 44, 44, 0.96);
+    font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+    backdrop-filter: blur(30px);
 }
 }
