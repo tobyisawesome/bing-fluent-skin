@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.0.3
+@version        1.0.4
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -983,5 +983,57 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
     box-shadow: 0 0 0 1px rgba(0,0,0,.0578);
     border: none;
     background: rgba(255, 255, 255, 0.7);
+}
+.scopes .customIcon .icon .rms_img {
+    display: block;
+    margin-top: 1px;
+    content: url("https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/chatlogo.png");
+}
+.scopes .scope .overflow_menu #office .icon {
+    background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/moreicons.png);
+}
+.mc_caro .musCard .headline .icon_text .text {
+    height: 2.2rem;
+    color: #fff;
+    padding-right: 18px;
+}
+#idCont #id_h #id_p, #idCont #id_h #id_a {
+    height: 64px;
+    width: 64px;
+    border-radius: 64px;
+    background-color: #ececec;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiNGMUYxRjEiLz4KPHBhdGggZD0iTTMyIDEyQzI2LjQ3NzIgMTIgMjIgMTYuNDc3MiAyMiAyMkMyMiAyNy41MjI4IDI2LjQ3NzIgMzIgMzIgMzJDMzcuNTIyOCAzMiA0MiAyNy41MjI4IDQyIDIyQzQyIDE2LjQ3NzIgMzcuNTIyOCAxMiAzMiAxMlpNMjAuMjQ5OSAzNkMxNy45MDMzIDM2IDE2IDM3LjkwMTMgMTYgNDAuMjQ4OUwxNiA0MUMxNiA0NC43NTU1IDE3Ljk0MTcgNDcuNTY2OSAyMC45MjAyIDQ5LjM4MDJDMjMuODQ5MSA1MS4xNjMzIDI3Ljc4NjEgNTIgMzIgNTJDMzYuMjEzOSA1MiA0MC4xNTA5IDUxLjE2MzMgNDMuMDc5OCA0OS4zODAyQzQ2LjA1ODMgNDcuNTY2OSA0OCA0NC43NTU1IDQ4IDQxTDQ4IDQwLjI0ODdDNDggMzcuOTAxMSA0Ni4wOTY3IDM2IDQzLjc1MDIgMzZIMjAuMjQ5OVoiIGZpbGw9IiM4NDg0ODQiLz4KPC9zdmc+Cg==")
+}
+.scopes .scope .overflow_menu {
+    color: rgba(0, 0, 0, 0.8956);
+    cursor: pointer;
+    transform: scale(0);
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    padding: 2px 4px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+    min-width: 155px;
+}
+.scopes .scope .overflow_menu .overflow_item {
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8956);
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.scopes .scope .overflow_menu .overflow_item:hover, .scopes .scope .overflow_menu .overflow_item.focusin {
+    background: rgba(0, 0, 0, 0.0373);
+    color: rgba(0, 0, 0, 0.8956);
+    border-radius: 4px;
+}
+.scopes .scope .overflow_menu .overflow_item.divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.0803);
 }
 }
