@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.1.0
+@version        1.1.1
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1081,7 +1081,7 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
     content: "";
     transform: translateX(-50%) rotate(45deg);
 }
-[vptest]::after, *[data-sbtip]:not(.disableTooltip):hover::after, *[data-sbtip].shtip:not(.disableTooltip)::after {
+*[data-sbtip]:not(.disableTooltip):hover::after {
     position: absolute;
     background-color: rgba(44, 44, 44, 0.96);
     content: attr(data-sbtip);
@@ -1139,7 +1139,27 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
 .tooltip:before, #sb_sbi:before, #id_sc:before, #id_rh:before, #id_rbh:before, #id_nc:before, #bnc-hc:before {
     background-color: transparent;
 }
-.tooltip:after, #sb_sbi:after, #id_sc:after, #id_rh:after, #id_rbh:after, #id_nc:after, #bnc-hc:after {
+.tooltip:after {
+    background-color: rgba(44, 44, 44, 0.96);
+    font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+    backdrop-filter: blur(30px);
+}
+.tooltip:after {
+    background-color: rgba(44, 44, 44, 0.96);
+    font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+    backdrop-filter: blur(30px);
+}
+#sb_sbi:after {
     background-color: rgba(44, 44, 44, 0.96);
     font: 13px/18px Segoe UI Variable Text,Helvetica,sans-serif;
     color: #fff;
