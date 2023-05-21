@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.1.1
+@version        1.1.2
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -55,8 +55,18 @@
                 transform: scale(.5)
             }
             .richrsrailsuggestion_img.sug_sprite:after {
-    content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
-}
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmap.png);
+            }
+            .hbic_saves {
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/collections.svg) !important;
+            }
+            .hbic_chat {
+            background-image: unset;
+                content: url("https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/labs.svg") !important;
+            }
+            img.tpicon {
+            content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/imagesettings.svg);
+            }
 .hbic_setting, .hbic_history, .hbic_mybing, .hbic_feedback, .hbic_safesearch, .hbic_homepage, .hbic_sign, .hbic_rewards, .hbic_chevdown, .hbic_chevup, .hbic_privacy, .hbic_themes {
     background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitems.png);
 }
@@ -1168,5 +1178,12 @@ box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
     border: none;
     backdrop-filter: blur(30px);
+}
+#tob_rail_container #tob_rail_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8956);
+    margin: 0 20px 16px 20px;
 }
 }
