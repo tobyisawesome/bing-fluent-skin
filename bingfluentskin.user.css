@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.0
+@version        1.2.1
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -399,31 +399,12 @@ a, #b_header a, #b_header a:hover, .b_toggle, .b_toggle:hover {
 .b_scopebar, .b_scopebar a, .b_scopebar a:visited, .id_button, .id_button:visited {
     color: #444;
 }
-<style>
 a, #b_tween a:visited, #b_results .b_no a {
     color: #174AE4;
-}
-<style>
-a, a * {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-}
-a {
-    z: 1;
-}
-a {
-    z: 1;
-}
-a {
-    z: 1;
-}
-a {
-    z: 1;
 }
 a, .b_algoheader a:hover, .b_topbar a:hover, .b_pag a:hover, .cbtn:hover, .cbtn a:hover, .b_hlButton:hover, .ftrB a:hover, .b_algo:hover .b_vList h2 a, .b_algo:first-child:hover .b_vList h2 a, #b_header:hover~#b_content #b_pole~#b_results li:first-child.b_ad li:first-child h2 a, #b_header:hover~#b_content #b_pole~#b_results li:first-child.b_algo h2 a, #b_results>.b_ans:hover .ent_cnt h2>a, #b_results>.b_ans:hover #sp_requery h2>a, #b_results>.b_ans .b_rich>.b_vList>li:hover h5.b_lBMargin>a {
     text-decoration: none;
 }
-user agent stylesheet
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -500,7 +481,7 @@ body, .b_no h4, h2 .b_secondaryText, h2 .b_alert, .b_underSearchbox, #b_header {
 body, .b_promoteText, #b_tween a.ftrH:hover, .b_expando, .b_expando h2, .b_active a, .b_active a:visited, .b_active a:hover, #b_results>.b_pag a, #b_results .b_no, #b_content a.cbl:visited, #b_content a.cbl {
     color: rgba(0, 0, 0, 0.8956);
 }
-</style.
+</style>
 body, .b_promoteText, #b_tween a.ftrH:hover, .b_expando, .b_expando h2, .b_expando h3, .b_expando h4, .b_expando .b_defaultText, .b_active a, .b_active a:visited, .b_active a:hover, #b_results>.b_pag a, #b_results .b_no, #b_content a.cbl:visited, #b_content a.cbl {
     color: #71777d;
 }
