@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.3
+@version        1.2.4
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1440,5 +1440,22 @@ html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p
     padding: 0;
     margin: 0;
     font-family: Segoe UI Variable Text;
+}
+.b_active a {
+    color:rgba(0, 0, 0, 0.8956) !important;
+}
+.b_scopebar, .b_scopebar a, .b_scopebar a:visited, .id_button, .id_button:visited {
+	color: rgba(0, 0, 0, 0.8956);
+}
+.b_scopebar .b_active a, .b_scopebar a:hover, .id_button:hover {
+	color: rgba(0, 0, 0, 0.6063);
+}
+.b_scopebar #b-scopeListItem-web {
+    color: rgba(0, 0, 0, 0.8956) !important;
+}
+.b_scopebar #b-scopeListItem-menu {
+	padding: 0px 0px;
+	line-height: 30px;
+	height: auto;
 }
 }
