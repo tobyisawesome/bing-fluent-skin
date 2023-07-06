@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.5
+@version        1.2.6
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1482,5 +1482,8 @@ html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p
 }
 .ua_ellipsis {
     overflow: visible;
+}
+.pagereco_TRow .b_title, .pagereco_TRow .b_attr {
+    font-size: 14px;
 }
 }
