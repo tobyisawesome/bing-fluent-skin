@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.6
+@version        1.2.7
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1485,5 +1485,10 @@ html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p
 }
 .pagereco_TRow .b_title, .pagereco_TRow .b_attr {
     font-size: 14px;
+}
+.new_see_more_txt {
+    margin-top: 0px !important;
+    align-content: center !important;
+    display: grid;
 }
 }
