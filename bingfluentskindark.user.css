@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.1
+@version        1.0.2
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1505,5 +1505,10 @@ img[src*="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%
 }
 #b_results>.b_pag a.sb_pagP:hover, #b_results>.b_pag a.sb_pagN:hover {
     background-color: transparent;
+}
+.new_see_more_txt {
+    margin-top: 0px !important;
+    align-content: center !important;
+    display: grid;
 }
 }
