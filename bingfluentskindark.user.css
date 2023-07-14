@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.2
+@version        1.0.3
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -44,9 +44,11 @@
             .b_logo:after {
                 content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
             }
+/*
             .b_searchboxSubmit {
                 background-image: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
             }
+*/
             .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
                 content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
             }
@@ -293,7 +295,7 @@ a.cbtn, .cbtn a, .cbtn input {
     background-color: rgba(84, 84, 84, 0.6399999856948853) !important;
     backdrop-filter: blur(30px) !important;
 }
-#b-scopeListItem-menu li.b_sp_over_item:hover {
+.b_dark .b_scopebar #b-scopeListItem-menu li.b_sp_over_item:hover {
     background: rgba(255, 255, 255, 0.060499999672174454);
 }
 .hb_card {
@@ -1043,7 +1045,7 @@ p>.news_dt {
 #ftr_pane {
     background-color: #fff0;
 }
-.ftrH_MmVert:hover, .ftrH_MmVert:focus {
+.b_dark .ftrH_MmVert:hover, .ftrH_MmVert:focus {
     background: rgba(255, 255, 255, 0.060499999672174454);
 }
 .me_section h2 {
@@ -1302,9 +1304,9 @@ box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.26), 0px 0px 0px 1px rgba(0, 0, 0, 
     border: none;
     backdrop-filter: blur(30px);
 }
-#detailPage #detailheader img#sbi_b, .blue2#miniheader img#sbi_b, .sbox img#sbi_b {
+/* #detailPage #detailheader img#sbi_b, .blue2#miniheader img#sbi_b, .sbox img#sbi_b {
     content: url(https://github.com/tobyisawesome/bing-fluent-skin/raw/main/visualsearchicon.svg);
-}
+} */
 .sbox .sb_form.c_show_form.c_show_c .mic_cont.icon .b_icon path, .sbox .sb_form.c_show_form.c_show_c .keyboard path {
     fill: rgb(255, 255, 255);
 }
@@ -1369,7 +1371,7 @@ box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.26), 0px 0px 0px 1px rgba(0, 0, 0, 
     color: rgb(255, 255, 255);
     margin: 0 20px 16px 20px;
 }
-.hb_section:focus {
+.b_dark .hb_section:focus {
     background-color: transparent;
 }
 .ciptr, .ciplr {
@@ -1511,4 +1513,195 @@ img[src*="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%
     align-content: center !important;
     display: grid;
 }
+/* New Bing Background*/
+#b_header {
+    padding: 18px 0 0 0;
+    background: #ffffff00;
+}
+#b_results>li {
+    background-color: #fff0;
+}
+#b_wpt_insights {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1),0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 6px;
+    margin: 0 -20px 20px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.l_ecrd_ftr {
+    display: flex;
+    padding: 16px 20px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.l_ecrd_a1 {
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+.lite-entcard-blk > div:not(.l_ecrd_bkg_img) {
+    position: relative;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+.lite-entcard-main {
+    border: 1px solid rgba(0, 0, 0, 0.0578) !important;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04) !important;
+}
+.lite-entcard-exp {
+    background-color: #fff0;
+    clear: both;
+    overflow: hidden;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+#b_content .ans_nws .na_cnt .na_ccw.tc {
+    position: relative;
+    box-sizing: content-box;
+    display: block;
+    height: 80px;
+    padding: 16px;
+    margin: 8px 0;
+    color: #444;
+    border-radius: 7px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+.lite-entcard-exp {
+    background-color: #fff0 !important;
+    clear: both;
+    overflow: hidden;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+.nws_itm {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    margin-bottom: 12px;
+    border-radius: 7px !important;
+}
+#tob_rail_container {
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 16px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.b-conclfb-wrapper {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.0578);
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.tl_cl {
+    position: relative;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1),0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.richrsrailtitle {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 5px 19px;
+    margin: 0 -20px;
+}
+.richrsrailexpansion ul li, .richrsrailsugwrapper>div {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.richrswrapper {
+    box-shadow: 0 2px 3px rgba(0,0,0,.1),0 -1px 1px rgba(0,0,0,.1);
+    padding: 9px 19px 4px 19px;
+    margin: -10px -20px 24px -20px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.0578);
+    background: rgba(255, 255, 255, 0.05);
+}
+#b_results #brsv3 .b_vList li a {
+    max-height: none;
+    min-height: 48px;
+    padding: 0 17px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.df_alaskcarousel #relatedQnAListDisplay.openAnsWrapper .b_slidebar .slide, #df_listaa .df_topicqna.openAnsWrapper .b_slidebar .slide {
+    box-sizing: border-box;
+    width: 300px;
+    height: 248px;
+    margin-right: 8px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.05);
+}
+.tl_cl .b_overlay .btn.next::before {
+    background: #ffffff00 !important;
+}
+.df_alaskcarousel.rqnaContainerwithfeedback .openans_gradient_div {
+    background: #ffffff00;
+}
+#b_pole .b_wpTabsWrapper {
+    background-color: #fff0 !important;
+    margin: 1px 0;
+    padding: 9px 0;
+}
+#b_content #b_pole .ent-dtab-content, #b_content #b_pole .ent-dtab-content > div:first-child {
+    background-color: #ffffff00 !important;
+}
+#b_pole .b_wpTabsWrapper:last-child {
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+#b_header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.dg_b {
+    padding: 10px;
+    background-color: transparent;
+    margin-top: -8px;
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+#rfPane {
+    background: transparent;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    min-width: 1177px;
+    padding-top: 5px;
+}
+.touchQuery .carousel .carousel-controls, .touchQuery .carousel .items, .touchQuery .carousel .item, .touchQuery .carousel .carousel-controls .nav_left, .touchQuery .carousel .carousel-controls .nav_right {
+    background: transparent;
+}
+.carousel, .carousel a {
+    color: #111;
+    background-color: transparent !important;
+}
+#b_context .b_ans, #b_context #wpc_ag {
+    background-color: transparent;
+}
+.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a, #bpage .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt a:visited {
+    color: rgba(255, 255, 255, 1);
+}
+#bpage #b_content .b_ans .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt p, #b_content .b_ans .l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt p {
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 4px;
+}
+.l_ecrd_imcolheader.gradient .l_ecrd_imcolheader_txt {
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+}
+/*End of New Bing Background*/
 }
