@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.7
+@version        1.2.8
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -97,6 +97,9 @@
             height: 14px;
             }
 .hbic_setting, .hbic_history, .hbic_mybing, .hbic_feedback, .hbic_safesearch, .hbic_homepage, .hbic_sign, .hbic_rewards, .hbic_chevdown, .hbic_chevup, .hbic_privacy, .hbic_themes {
+    background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitemsold.png);
+}
+.hbic_darkmode {
     background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitems.png);
 }
     /* End of Fluent Bing Icons */
