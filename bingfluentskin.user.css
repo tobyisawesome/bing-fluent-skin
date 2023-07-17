@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.2.8
+@version        1.2.9
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1493,5 +1493,12 @@ html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p
     margin-top: 0px !important;
     align-content: center !important;
     display: grid;
+}
+@media screen and (max-width: 1224px) {
+  #fltIdtCon {
+    position: fixed;
+    right: -15px;
+    bottom: 7px;
+  }
 }
 }
