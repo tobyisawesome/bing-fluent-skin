@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.3
+@version        1.0.4
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -51,10 +51,6 @@
 */
             .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
                 content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
-            }
-            #mfa_root .fba_sbicn {
-                background: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png) no-repeat -762px 0;
-                transform: scale(.5)
             }
             .richrsrailsuggestion_img.sug_sprite:after {
                 content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png);
@@ -1704,4 +1700,11 @@ img[src*="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%
     margin-bottom: 12px;
 }
 /*End of New Bing Background*/
+@media screen and (max-width: 1224px) {
+  #fltIdtCon {
+    position: fixed;
+    right: -15px;
+    bottom: 7px;
+  }
+}
 }
