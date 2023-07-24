@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.6
+@version        1.0.7
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -56,7 +56,7 @@
                 content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png);
             }
             .hbic_saves {
-                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/collections.svg) !important;
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/collectionsdark.svg) !important;
             }
             .b_dark .hbic_chat {
                 background-image: unset;
@@ -1803,6 +1803,30 @@ border: 1px solid;
   background: rgba(96, 205, 255, 1);
 }
 /*End of Fluent Buttons*/
+#hbsettings~.slide_down {
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+    overflow-y: hidden; 
+}
+#hbchatbtn.hb_expandible.slide_down {
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+    overflow-y: hidden; 
+}
+#hbradiobtn.hb_expandible.hb_expanded.slide_down {
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+    overflow-y: hidden; 
+}
+    #imgquickset.hb_expandible.slide_down{
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+    overflow-y: hidden;
+    }
 /* Define a slide-in animation */
 @keyframes slide-in {
   from {
@@ -1850,5 +1874,8 @@ transition: 0.083s;
 }
 .b_scopebar .b_active a, .b_scopebar a:hover, .id_button:hover {
 transition: 0.2s;
+}
+.b_dark .hmb_sep {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 }
