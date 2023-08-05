@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.3.2
+@version        1.3.3
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -535,16 +535,6 @@ body, .b_promoteText, #b_tween a.ftrH:hover, .b_expando, .b_expando h2, .b_expan
 :root {
     --icn-bg-color: #fff;
     --svlbl-txt-color: #444;
-}
-:root {
-    --lgutter: 160px;
-    --lgutterrev: -160px;
-    --polepadl: 180px;
-    --polepadl2: 120px;
-    --dtabpadl: 170px;
-    --rgutter: 80px;
-    --crleft: 888px;
-    --bminwidth: 1320px;
 }
 .ftrD_MmVert>a, .ftrCustContainer {
     border-radius: 4px;
