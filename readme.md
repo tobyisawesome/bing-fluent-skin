@@ -40,8 +40,9 @@ Some of the effects applied by this skin are:
 ## Screenshots
 
 Here are some screenshots of how Bing looks with this skin:
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/be4802a7-3f76-4ef2-b2de-ae9cc43f277b)
-![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/f87adf60-f703-44af-916c-d14b516920e7)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/1eb0491a-12df-43ce-8a6f-4625c09038bb)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/86cc4e4e-7116-4cde-bc9e-628507255210)
+![image](https://github.com/tobyisawesome/bing-fluent-skin/assets/71511385/e9534f6b-2035-472d-a186-a84c3757a0b4)
 ![image](https://cdn.discordapp.com/attachments/940934768042860590/1108163117306871829/image.png)
 
 ## Feedback
