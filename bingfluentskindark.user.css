@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.8
+@version        1.0.9
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -21,10 +21,10 @@
 }
     /* Fluent Bing Icons*/
 .sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.b_fLogo:after,.b_cm:after,.sw_lpoi:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
             .sw_meIc:after,.idp_ham:after,.idp_wlid:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
             .sw_spd {
                 height: 64px;
@@ -32,28 +32,28 @@
                 border-radius: 50%;
                 top: -7px;
                 background-repeat: no-repeat;
-                background-image: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png);
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png);
                 transform: scale(.5);
                 background-position: -362px -28px;
                 margin: 0 -16px 0 -8px;
                 vertical-align: top
             }
             .b_logo:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
             .b_logo:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
 /*
             .b_searchboxSubmit {
-                background-image: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
 */
             .b_sydConvMode #b_header.b_sydenterpriseHeader .idp_ham:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png)
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png)
             }
             .richrsrailsuggestion_img.sug_sprite:after {
-                content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png);
+                content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png);
             }
             .hbic_saves {
                 content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/collectionsdark.svg) !important;
@@ -1112,7 +1112,7 @@ div.me_sidenav a, div.me_sidenav a:visited {
     background: #ff00;
 }
 .sw_detect:after {
-    content: url(https://raw.githubusercontent.com/BlueYoshi1938/bing-fluent-skin/main/bingbitmap2.png);
+    content: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingbitmapdark.png);
 }
 .ent-dtab-nam-ov-dtp.ent-dtab-tabuxv1 {
     overflow: visible;
