@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name           Fluent Bing Dark
 @namespace      bing.com
-@version        1.0.9
+@version        1.1.0
 @description    Dark fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -120,10 +120,13 @@
     display: block;
 }
 div.b_searchboxForm{
-    border-radius: 8px;
+  border-radius: 7px;
+}
+.as_no_s #b_header.b_focus .b_searchboxForm, .as_nw #b_header.b_focus .b_searchboxForm, #b_header .b_searchboxForm:focus-within, #b_header .b_searchboxForm:has(textarea:not([rows="1"])) {
+    border-radius: 7px;
 }
 #b_header .b_searchboxForm, #uaanswer .b_searchboxForm{
-    border-radius: 8px;
+  border-radius: 7px;
 }
 .b_scopebar li::after{
     margin-top: 0px;
@@ -153,13 +156,13 @@ div.b_searchboxForm{
 #sw_as .sa_drw .sa_sg.as_extra_pad{
     padding-top: 2px !important;
     padding-bottom: 2px !important;
-    margin-left: 6px !important;
-    margin-right: 6px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
     margin-bottom: 2px !important;
-    border-radius: 8px !important;
+    border-radius: 4px !important;
 }
 .as_on #b_header .b_searchboxForm, .as_on #b_header .b_searchboxForm:focus-within{
-    border-radius: 8px 8px 0 0;
+    border-radius: 7px;
 }
 .b_searchboxForm{
     font: 18px/normal 'Segoe UI Variable Text',Helvetica,Sans-Serif;
@@ -305,14 +308,16 @@ html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
 }
 #sw_as .sa_drw {
     margin: 0;
-    padding-top: 8px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
 }
 #sw_as #sa_ul li.pp_sTile.pp_tile {
     padding-left: 8px !important;
-    margin-left: 8px !important;
-    margin-right: 8px !important;
-    border-radius: 8px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    border-radius: 4px !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
 }
 a, #b_tween a:visited, #b_results .b_no a {
     color: #174AE4;
@@ -1867,5 +1872,133 @@ transition: 0.2s;
 }
 .b_dark .hmb_sep {
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+/* Fluent Search Box*/
+.b_dark .b_searchboxForm {
+background: rgba(255, 255, 255, 0.06);
+box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.07);
+border: none;
+}
+.b_dark .b_searchboxForm:focus-within {
+background: rgba(255, 255, 255, 0.06) !important;
+transition: 0.2s;
+border: none;
+}
+.b_dark .b_searchboxForm:hover, .b_focus .b_searchboxForm {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.07);
+    transition: 0.2s;
+border: none;
+}
+html .b_dark .b_focus .b_searchboxForm, html .b_dark .b_searchboxForm:focus {
+    border-bottom: none;
+}
+.sa_as {
+    position: absolute;
+    width: 100%;
+    top: 8px;
+}
+#sb_form #sw_as #sa_ul {
+    border-radius: 7px !important;
+}
+#sw_as .sa_drw {
+    background-color: rgba(84, 84, 84, 0.6399999856948853) !important;
+    backdrop-filter: blur(30px) !important;
+border: none;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.26), 0px 0px 0px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.b_searchboxForm.as_rsform #sw_as .sa_as {
+    background-color: rgba(84, 84, 84, 0.6399999856948853) !important;
+    backdrop-filter: blur(30px) !important;
+border: none;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.26), 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+.as_on .b_searchboxForm.as_rsform #sw_as .sa_as {
+background: transparent !important; 
+backdrop-filter: none !important;
+box-shadow: none !important;
+border-radius: 7px;
+
+}
+.as_on .b_searchboxForm.as_rsform #sw_as .sa_as div#sa_requery {
+    margin-bottom: 0px;
+    border-radius: 7px !important;
+}
+/*hides "manage your search history"*/
+html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
+display: none !important;
+}
+#sw_as .as_rmhswarning.out_fd_side {
+display: none !important;
+}
+#sw_as>.sa_fd {
+display: none !important;
+}
+/*end*/
+#sw_as .sa_as .sa_drw .sa_sgr {
+    border: none;
+    border-radius: 4px !important;
+}
+#sw_as .rs_tx {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI Variable Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+text-transform: initial;
+line-height: 20px;
+    opacity: 1;
+}
+#sw_as .pasf_tx {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI Variable Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+text-transform: initial;
+line-height: 20px;
+    opacity: 1;
+}
+#sw_as .sa_hd {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI Variable Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+text-transform: initial;
+line-height: 20px;
+}
+.as_on .b_searchboxForm.as_rsform #sw_as .sa_as {
+    animation-name: fadeIn;
+    animation-duration: 83ms;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+}
+#sw_as .sa_sg_icon_area .sa_sg_icon {
+    height: 18px;
+    width: 18px;
+    margin-top: 9px;
+}
+    #sw_as .sa_drw .sa_sg.as_extra_pad:hover {
+transition: 0.083s;
+    }
+    #sw_as .sa_as .sa_drw .sa_sgr:hover {
+background: rgba(255, 255, 255, 0.06);
+transition: 0.083s;
+    }
+.b_dark li.pp_tile.sa_hv, .b_dark .b_searchboxForm #sw_as .sa_hv {
+background: rgba(255, 255, 255, 0.06);
+}
+#sw_as .sa_drw .sa_sg.as_extra_pad:hover {
+background: rgba(255, 255, 255, 0.06);
+}
+#sw_as .sa_drw .sa_sg.as_extra_pad:active {
+background: rgba(255, 255, 255, 0.04);
+}
+#sw_as #sa_ul li:hover {
+transition: 0.083s;
+}
+#sw_as #sa_ul li:active {
+background: rgba(255, 255, 255, 0.04);
+transition: 0.083s;
 }
 }
