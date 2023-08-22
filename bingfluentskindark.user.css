@@ -1874,6 +1874,9 @@ transition: 0.2s;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 /* Fluent Search Box*/
+#sw_as .sa_drw .sa_sg {
+    cursor: default;
+}
 .b_dark .b_searchboxForm {
 background: rgba(255, 255, 255, 0.06);
 box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.07);
