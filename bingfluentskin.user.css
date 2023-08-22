@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.4.1
+@version        1.4.2
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1189,9 +1189,7 @@ div.me_sidenav a, div.me_sidenav a:visited {
 box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.0578);
 }
 #b_results>li.b_ans.b_topborder, #b_results>li.b_ans.b_topborder.b_tophb.b_topshad {
-    box-shadow: 0 0 0 1px rgba(0,0,0,.0578);
-    border: none;
-    background: rgba(255, 255, 255, 0.7);
+background:transparent
 }
 .scopes .customIcon .icon .rms_img {
     display: block;
@@ -1722,6 +1720,12 @@ display: none !important;
     color: rgba(0, 0, 0, 0.8956);
     opacity: 1;
 }
+    #sw_as .paa_tx {
+    font-family: 'Segoe UI Variable Text';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8956);
+    opacity: 1;
+    }
 #sw_as .sa_hd {
     color: rgba(0, 0, 0, 0.8956);
     font-family: Segoe UI Variable Text;
@@ -1760,5 +1764,17 @@ transition: 0.083s;
 #sw_as #sa_ul li:active {
 background: rgba(0, 0, 0, 0.02);
 transition: 0.083s;
+}
+#sw_as .sa_tm {
+    user-select: none;
+}
+    #sw_as {
+ user-select: none;
+    }
+#sw_as .sa_as .sa_drw .sa_sgr {
+    cursor: default;
+}
+.sydwrap_wrapper {
+    border-radius: 27px;
 }
 }
