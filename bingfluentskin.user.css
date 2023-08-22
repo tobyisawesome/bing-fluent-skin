@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.4.0
+@version        1.4.1
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1651,6 +1651,9 @@ transition: 0.083s;
 transition: 0.2s;
 }
 /* Fluent Search Box*/
+#sw_as .sa_drw .sa_sg {
+    cursor: default;
+}
 .b_searchboxForm {
 background: rgba(255, 255, 255, 0.7);
 box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
@@ -1698,11 +1701,8 @@ border-radius: 7px;
 /*hides "manage your search history"*/
 html #b_header .b_searchboxForm.as_rsform .sa_as>.as_rmhswarning {
 display: none !important;
-}
+    }
 #sw_as .as_rmhswarning.out_fd_side {
-display: none !important;
-}
-#sw_as>.sa_fd {
 display: none !important;
 }
 /*end*/
@@ -1711,23 +1711,15 @@ display: none !important;
     border-radius: 4px !important;
 }
 #sw_as .rs_tx {
+    font-family: 'Segoe UI Variable Text';
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.8956);
-    font-family: Segoe UI Variable Text;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-text-transform: initial;
-line-height: 20px;
     opacity: 1;
 }
 #sw_as .pasf_tx {
+    font-family: 'Segoe UI Variable Text';
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.8956);
-    font-family: Segoe UI Variable Text;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-text-transform: initial;
-line-height: 20px;
     opacity: 1;
 }
 #sw_as .sa_hd {
@@ -1759,4 +1751,14 @@ transition: 0.083s;
 background: rgba(0, 0, 0, 0.04);
 transition: 0.083s;
     }
+#sw_as .sa_drw .sa_sg.as_extra_pad:active {
+background: rgba(0, 0, 0, 0.02);
+}
+#sw_as #sa_ul li:hover {
+transition: 0.083s;
+}
+#sw_as #sa_ul li:active {
+background: rgba(0, 0, 0, 0.02);
+transition: 0.083s;
+}
 }
