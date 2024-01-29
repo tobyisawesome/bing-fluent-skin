@@ -1,0 +1,150 @@
+/* ==UserStyle==
+@name           Bing Fluent Sidebar WIP
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("bing.com") {
+body {
+    display: flex;
+}
+    header { 
+    height:100vh;
+    width:300px !important;
+    min-width: unset !important;
+    position: fixed !important;
+    left:0;
+    top:0;
+    }
+    html body, body #b_header {
+    min-width: unset;
+}
+    #b_content {
+    margin-left: 300px !important; /* same as width of header*/
+    width: calc(100% - 300px) !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
+    }
+    .b_footer {
+    display: none;
+}
+    .b_scopebar ul {
+    height: 39px;
+    overflow-y: visible;
+    flex-direction: column;
+    display: flex;
+}
+#id_h {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+#b_header #sb_form, .b_logoArea, .b_logo, .b_searchboxForm, .id_button, .id_avatar, .idp_ham, .b_scopebar li, .b_scopebar a {
+    display: flex;
+    flex-direction: row;
+}
+#b_header .b_searchboxForm {
+    height: 46px;
+    width: 100%;
+}
+#id_h #id_l {
+    margin-right: 0;
+    display: flex;
+}
+#b_header {
+    border-bottom: none;
+}
+.b_scopebar {
+    padding: 0;
+    margin-left: 4px;
+    border-bottom: none;
+}
+.b_scopebar a {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 32px;
+    background: transparent;
+    border-radius: 4px;
+    width: 100%;
+}
+.b_scopebar #b-scopeListItem-web::after {
+    position: relative !important;
+    transition-property: transform, width !important;
+    transition-duration: 500ms !important;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.25, 1) !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    height: 33% !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    background: blue !important;
+    width: 3px !important;
+    right: calc(100% - 2.5px) !important;
+}
+    .b_scopebar li::after{
+      position: relative !important;
+    transition-property: transform, width !important;
+    transition-duration: 500ms !important;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.25, 1) !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    height: 33% !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    background: blue !important;
+    width: 3px !important;
+    right: calc(100% - 2.5px) !important; 
+    }
+.b_scopebar .b_active a {
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.04) !important;
+}
+#b_header #id_h {
+    left: 8px !important;
+    bottom: 0px !important;
+    position: fixed !important;
+}
+#b_phead_chat {
+    display: none;
+}
+/* Define a slide-in animation */
+@keyframes slide-in {
+  from {
+    /* Start from the right edge of the screen */
+    transform: translateY(100%);
+  }
+  to {
+    /* End at the original position */
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn linear 83ms;
+}
+
+/* Apply the animation to the element */
+#id_hbfo.slide_down {
+    /* Add the animation name, duration and easing */
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+}
+.sa_as {
+    position: fixed;
+    width: 100%;
+    top: 8px;
+}
+.hb_section {
+position: fixed;
+}
+}
