@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Bing
 @namespace      bing.com
-@version        1.4.3
+@version        1.4.4
 @description    Fluent skin for Bing
 @author         DKoala1087
 ==/UserStyle== */
@@ -1950,5 +1950,8 @@ left: -186px !important;
 }
 .b_widgetContainer {
     left: -160px !important;
+}
+.hbic_setting, .hbic_history, .hbic_mybing, .hbic_feedback, .hbic_safesearch, .hbic_homepage, .hbic_sign, .hbic_rewards, .hbic_chevdown, .hbic_chevup, .hbic_privacy, .hbic_themes, .hbic_health_privacy {
+    background-image: url(https://raw.githubusercontent.com/tobyisawesome/bing-fluent-skin/main/bingmenuitemsold.png);
 }
 }
